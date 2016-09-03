@@ -1,5 +1,7 @@
 ---
 title: Debian 套件安裝
+category: Dev
+tags: [debian]
 ---
 ### Docker resolve host not found
 

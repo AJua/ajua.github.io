@@ -1,0 +1,44 @@
+---
+title: Catetories
+permalink: "catetories/index.html"
+---
+
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<div class="page-archive">
+{% for tag in tags %}
+	<h3 class="section-header-archive" id="{{ tag | slugify }}">{{ tag }}</h3>
+	 {% for post in site.posts %}
+		 {% if post.tags contains tag %}
+     <p>
+		 <a href="{{ post.url }}" class="post-title-archive">
+		 {{ post.title }}
+		 </a>
+		 <small class="text-muted">{{ post.date | date_to_string }}</small>
+     </p>
+		 {% endif %}
+	 {% endfor %}
+{% endfor %}
+</div>
+

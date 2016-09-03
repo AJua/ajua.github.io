@@ -1,5 +1,6 @@
 ---
 title: 一些在 Debian 安裝軟體可能遇到的問題
+tags: [debian]
 ---
 ### Nvidia 顯示卡驅動程式
 

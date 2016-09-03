@@ -1,5 +1,7 @@
 ---
-title: "Ruby jekyll"
+title: Ruby jekyll serve error
+category: Dev
+tags: [ruby]
 ---
 ## jekyll 3.2.1 | Error:  Address already in use - bind(2) for 127.0.0.1:4000
 
@@ -11,7 +13,6 @@ title: "Ruby jekyll"
 沒辦法用 Ctrl-C 的方式關閉,
 但是 _config.yml 必須重啟才能夠生效,
 所以需要以指令的方式關閉,
-方法如下,
 首先找出執行中的程序id,
 然後用 <code>sudo kill</code> 中止。
 
