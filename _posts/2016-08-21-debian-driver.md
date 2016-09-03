@@ -33,4 +33,4 @@ A partition table (type msdos) and a partition for Windows were created manually
 Problem: The GRUB entry created for Windows by the os-prober is wrong (e.g., has the wrong name).
 Solution: Disable os-prober create a custom GRUB menu entry for Windows. 
 
-https://wiki.debian.org/DualBoot/Windows10
+參考 [DualBoot/Windows10](https://wiki.debian.org/DualBoot/Windows10)

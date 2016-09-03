@@ -3,7 +3,7 @@ title: Ruby jekyll serve error
 category: Dev
 tags: [ruby]
 ---
-## jekyll 3.2.1 | Error:  Address already in use - bind(2) for 127.0.0.1:4000
+### jekyll 3.2.1 | Error:  Address already in use - bind(2) for 127.0.0.1:4000
 
 <!--more-->
 
@@ -26,5 +26,3 @@ $ sudo kill -9238 PID
 ```
 
 參考 [tcpserver-error-address-already-in-use-bind2](http://stackoverflow.com/questions/10261477/tcpserver-error-address-already-in-use-bind2)
-
-Continue onto [{{ page.previous.title }}]({{ page.previous.url | prepend:site.baseurl }}) to learn more.
