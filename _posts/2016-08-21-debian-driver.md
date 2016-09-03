@@ -3,6 +3,8 @@ title: 一些在 Debian 安裝軟體可能遇到的問題
 ---
 ### Nvidia 顯示卡驅動程式
 
+<!--more-->
+
 參考  [NVIDIA GeForce Driver Installation on Debian Jessie Linux 8 64bit](https://linuxconfig.org/nvidia-geforce-driver-installation-on-debian-jessie-linux-8-64bit) ，
 
 Add non-free to Debian repository
@@ -19,31 +21,6 @@ $ apt-get update
 $ apt-get install nvidia-driver
 $ apt-get install nvidia-xconfig
 $ nvidia-xconfig
-```
-
-### Docker resolve host not found
-
-
-```sh
-$ vim /etc/resolv.conf
-```
-
-Add name dns server to the top
-
-```sh
-nameserver 8.8.8.8
-```
-
-### Steam dependencies
-
-```sh
-$ apt-get install '^libc6.*' 
-$ vim /etc/apt/sources.list
-$ dpkg --add-architecture i386
-$ apt-get update
-$ apt-get install libgl1-nvidia-glx:i386
-$ apt-get install libgl1-nvidia-glx:i386
-
 ```
 
 ### DualBootWindows10 

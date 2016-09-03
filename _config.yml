@@ -4,6 +4,8 @@ title: "阿爪的筆記本"
 author: "阿爪"
 author_en: "AJua"
 
+excerpt_separator: <!--more-->
+
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
 
