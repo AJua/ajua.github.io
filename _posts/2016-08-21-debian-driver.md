@@ -1,6 +1,6 @@
 ---
-title: 一些在 Debian 安裝軟體可能遇到的問題
-tags: [debian]
+title: Debian 硬體驅動程式 
+tags: [Debian]
 ---
 ### Nvidia 顯示卡驅動程式
 
@@ -24,7 +24,7 @@ $ apt-get install nvidia-xconfig
 $ nvidia-xconfig
 ```
 
-### DualBootWindows10 
+### Debian + Windows 10 雙重開機
 
 Windows 10 was installed first on a non-formated disk using a non-UEFI BIOS.
 

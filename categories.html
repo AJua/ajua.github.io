@@ -28,7 +28,7 @@ permalink: "catetories/index.html"
 
 <div class="page-archive">
 {% for tag in tags %}
-	<h3 class="section-header-archive" id="{{ tag | slugify }}">{{ tag }}</h3>
+	<h2 class="section-header-archive" id="{{ tag | slugify }}">{{ tag }}</h2>
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
      <p>

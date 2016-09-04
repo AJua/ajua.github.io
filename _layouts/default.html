@@ -56,6 +56,9 @@
           </div>
           <div class="col-sm-3">
             {% include sidebar.html %}
+            {% include side-category.html %}
+            {% include side-links.html %}
+            {% include purplecoat.html %}
           </div>
         {% endif %}
       </div>
@@ -68,6 +71,5 @@
     <script src="{{ "/javascripts/jquery.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/javascripts/bootstrap.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/javascripts/purplecoat-min.js" | prepend:site.baseurl }}"></script>
-    {% include scripts.html %}
   </body>
 </html>

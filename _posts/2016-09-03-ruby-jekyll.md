@@ -1,7 +1,7 @@
 ---
 title: Ruby jekyll serve error
 category: Dev
-tags: [ruby]
+tags: [Ruby]
 ---
 ### jekyll 3.2.1 | Error:  Address already in use - bind(2) for 127.0.0.1:4000
 
