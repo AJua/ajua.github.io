@@ -4,10 +4,6 @@ tags: [Debian]
 ---
 ### Nvidia 顯示卡驅動程式
 
-<!--more-->
-
-參考  [NVIDIA GeForce Driver Installation on Debian Jessie Linux 8 64bit](https://linuxconfig.org/nvidia-geforce-driver-installation-on-debian-jessie-linux-8-64bit) ，
-
 Add non-free to Debian repository
 
 ```sh
@@ -24,13 +20,51 @@ $ apt-get install nvidia-xconfig
 $ nvidia-xconfig
 ```
 
-### Debian + Windows 10 雙重開機
 
-Windows 10 was installed first on a non-formated disk using a non-UEFI BIOS.
+### fonts too big after installing nvidia driver
 
-A partition table (type msdos) and a partition for Windows were created manually during the installation of Windows. Windows automatically created a "System Reserved" partition (/dev/sda1) used for booting. Windows was installed into the second partition (/dev/sda2). Debian was installed into the third partition (/dev/sda3).
+I found the following to be a somewhat clean solution to the problem (found this somewhere on the net - all credits to whomever figured it out). It will only work for lightdm users. If you're on Ubuntu and you don't know what lightdm or an X display manager is in general, you are probably using lightdm.
 
-Problem: The GRUB entry created for Windows by the os-prober is wrong (e.g., has the wrong name).
-Solution: Disable os-prober create a custom GRUB menu entry for Windows. 
+1.) Run this command in a konsole to find out your current DPI setting:
 
-參考 [DualBoot/Windows10](https://wiki.debian.org/DualBoot/Windows10)
+```
+$ cat /var/log/Xorg.0.log | grep -i dpi
+```
+
+For me, the output with a freshly installed Kubuntu 14.04 x64 with proprietary nvidia drivers contained:
+
+```
+[    11.509] (--) NVIDIA(0): DPI set to (143, 144); computed from "UseEdidDpi" X config
+```
+
+To no surprise, all fonts appeared ridiculously huge - even deforming windows and making the desktop pretty much unusable. The issue was also present in the login screen.
+
+2.) Edit this file with superuser permissions:
+
+```
+/etc/lightdm/lightdm.conf
+```
+
+Look for a line starting with "xserver-command" and append a -dpi XXX argument to it. For me, the line now looks like
+Code:
+
+```
+xserver-command=X -core -dpi 96
+```
+
+3.) Reboot. Logging out and in again won't suffice.
+
+4.) Enjoy fonts of appropriate size. Check again with the above cat/grep command:
+Code:
+
+[    11.643] (++) NVIDIA(0): DPI set to (96, 96); computed from -dpi X commandline option
+
+So, this EDID based DPI calculation seems to be broken. Not sure if in xorg, in the nvidia driver, in some Ubuntu package or inherently.
+
+Does anybody know more about this? Can anybody provide a link to some bug on the appropriate tracker? 
+
+
+參考  [NVIDIA GeForce Driver Installation on Debian Jessie Linux 8 64bit](https://linuxconfig.org/nvidia-geforce-driver-installation-on-debian-jessie-linux-8-64bit) 
+
+參考  [fonts too big after installing nvidia driver](https://ubuntuforums.org/showthread.php?t=2201820) 
+
