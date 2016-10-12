@@ -20,7 +20,6 @@ $ apt-get install nvidia-xconfig
 $ nvidia-xconfig
 ```
 
-
 ### fonts too big after installing nvidia driver
 
 I found the following to be a somewhat clean solution to the problem (found this somewhere on the net - all credits to whomever figured it out). It will only work for lightdm users. If you're on Ubuntu and you don't know what lightdm or an X display manager is in general, you are probably using lightdm.
