@@ -4,7 +4,7 @@ category: Dev
 tags: [git]
 ---
 
-```
+```sh
 mv asubmodule asubmodule_tmp
 git submodule deinit asubmodule    
 git rm asubmodule
