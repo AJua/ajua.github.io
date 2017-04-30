@@ -17,5 +17,6 @@ sudo service ssh restart
 # for debug
 tail -f /var/log/auth.log.
 ```
+參考連結:
 
 [ trying-to-do-ssh-authentication-with-key-files-server-refused-our-key ]( http://askubuntu.com/questions/306798/trying-to-do-ssh-authentication-with-key-files-server-refused-our-key )
