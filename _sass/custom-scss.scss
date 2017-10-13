@@ -12,3 +12,6 @@
   @extend .table;
   @extend .table-bordered;
 }
+.navbar-toggle .icon-bar {
+  width: 16px;
+}
