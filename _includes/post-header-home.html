@@ -1,4 +1,11 @@
 <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
 <div data-purplecoat="shiori" data-purplecoat-label="post-header-home.html">
-<p class="text-muted">{{ post.date | date_to_string }}</p>
+<p class="text-muted">
+{{ post.date | date: "%Y" }} 年
+{{ post.date | date: "%m" }} 月
+{{ post.date | date: "%d" }} 日 |  
+{% for tag in post.tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+</p>
 </div>

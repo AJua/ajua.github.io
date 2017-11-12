@@ -4,6 +4,7 @@ category: Dev
 tags: [bash]
 ---
 
+<!--more-->
 首先使用 apt 安裝套件
 
 ```bash

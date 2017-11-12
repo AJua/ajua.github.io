@@ -3,6 +3,7 @@ title: GPG 常用指令
 tags: [GPG]
 ---
 
+<!--more-->
 ```bash
 # 生成新的公私鑰
 gpg --gen-key

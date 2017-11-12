@@ -3,6 +3,7 @@ title: 如何 terminal 下 vim 使用系統的剪貼簿
 tags: [vim]
 ---
 
+<!--more-->
 首先必須先安裝好<code>vim-gtk</code>
 
 ```bash

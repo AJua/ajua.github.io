@@ -3,6 +3,7 @@ title: Latex CJK 樣板
 tags: [Latex]
 ---
 
+<!--more-->
 使用 windows powershell
 ```sh
 # Install scoop if it is not installed. Use scoop just like apt-get.

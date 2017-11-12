@@ -3,6 +3,7 @@ title: Data Structures
 tags: [reading]
 ---
 
+<!--more-->
 ## Part III Data Structures
 
 1. 不同集合存在的原因是為了因應不同的操作需求，例如 dictionary 主要用來做 insertion, deletion, test for existance  

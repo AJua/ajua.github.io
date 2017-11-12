@@ -5,6 +5,7 @@ tags: [Debian]
 
 檔案的權限設定錯誤會導致 ssh 認證失敗
 
+<!--more-->
 ```sh
 # enter the public key in ~/.ssh/authorized_keys in one line (needs to start with ssh-rsa)
 chmod 700 ~/.ssh

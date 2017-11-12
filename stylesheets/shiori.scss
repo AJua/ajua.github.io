@@ -9,7 +9,7 @@ $headings-font-weight: 700;
 
 $font-size-base: 15px;
 $font-size-h1: floor(($font-size-base * 2));
-$font-size-h2: floor(($font-size-base * 1.4));
+$font-size-h2: floor(($font-size-base * 1.3));
 $font-size-h3: floor(($font-size-base * 1));
 $font-size-h4: floor(($font-size-base * 1));
 $font-size-h5: floor(($font-size-base * 1));
@@ -90,7 +90,7 @@ h3 {
   margin-top: 0;
 }
 .section-header-archive ~ .section-header-archive {
-  margin-top: $space-md;
+  margin-top: $space-xs;
 }
 
 .post-header {
@@ -103,7 +103,7 @@ h3 {
   }
 }
 .post-excerpt-home {
-  margin-bottom: $space-md;
+  margin-bottom: 0;
 }
 .post-title-main {
   margin: 0;

@@ -3,6 +3,7 @@ title: Setup docker with scoop on windows
 tags: [docker]
 ---
 
+<!--more-->
 ```sh
 # install docker and docker machine by scoop
 scoop install docker docker-machine

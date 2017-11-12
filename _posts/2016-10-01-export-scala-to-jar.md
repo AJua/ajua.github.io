@@ -3,6 +3,8 @@ title: export scala to runnable jar
 category: Dev
 tags: [scala]
 ---
+
+<!--more-->
 If you use sbt to build you can use one of the one-jar plugins. They will put all dependencys into one big jar file (inclusive all the scala.jar files). This means that you only need one jar file and don't have to manage all the dependencys.
 
 As an example with sbt-assembly (mostly copied from https://github.com/sbt/sbt-assembly):

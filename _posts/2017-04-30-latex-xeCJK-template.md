@@ -3,6 +3,7 @@ title: Latex xeCJK 樣板
 tags: [Latex]
 ---
 
+<!--more-->
 接續 [ Latex CJK 樣板 ]( /latex-CJK-template )， 在連結中所使用的中文是 `CJKutf8` 套件辦到，
 而這裡所使用的是 `xeCJK` 搭配 `xelatex` 以及 `fontspec` 完成， 詳細作法如下。
 ``` tex

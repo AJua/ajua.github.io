@@ -5,6 +5,7 @@ tags: [Debian]
 
 Quod Libet 是一個很簡潔的跨平台音樂播放程式
 
+<!--more-->
 ```bash
 # deb http://lazka.github.io/ql-debian/stable/ quodlibet-stable/
 

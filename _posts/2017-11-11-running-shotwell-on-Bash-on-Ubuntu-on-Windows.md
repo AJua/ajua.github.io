@@ -1,6 +1,6 @@
 ---
 title: Running shotwell on Bash on Ubuntu on Windows
-tags: [Linux]
+tags: [Linux, Windows]
 ---
 自從被某網友推坑使用 Debian 之後,
 我就很喜歡使用 shotwell 來管理我拍的相片,
@@ -12,9 +12,10 @@ tags: [Linux]
 一個方式是用 virtual box,
 但是實際跑起來不是很方便,
 而這裡要介紹的是另一個方式, 
-原理也有點複雜，不過有一個好處是可以寫成 script,
+原理也有點複雜, 不過有一個好處是可以寫成 script,
 也就是可以自動化在新的電腦安裝,
 以下是安裝步驟: 
+<!--more-->
 
 1. 首先在 Windows 安裝 Xming, 個人推薦使用 scoop 來安裝, 如果還沒有 scoop
    的話, 可以按照這兩行指令安裝
@@ -51,7 +52,6 @@ apt-get install -y shotwell fonts-arphic-uming
 6. 開始執行 shotwell
 ``` bash
 shotwell
-
 ln -s /mnt/d/Syncthing/Pictures/shotwell ~/.local/share/shotwell
 ```
 

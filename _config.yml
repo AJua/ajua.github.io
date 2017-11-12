@@ -18,6 +18,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 permalink: :title
+excerpt_separator: <!--more-->
 defaults:
   -
     scope:

@@ -2,6 +2,7 @@
 title: Debian 硬體驅動程式 
 tags: [Debian]
 ---
+<!--more-->
 ### Nvidia 顯示卡驅動程式
 
 Add non-free to Debian repository

@@ -4,6 +4,7 @@ category: Dev
 tags: [Java]
 ---
 
+<!--more-->
 ### function
 
 

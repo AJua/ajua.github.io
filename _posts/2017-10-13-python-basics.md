@@ -2,6 +2,7 @@
 title: python 基礎
 tags: [python]
 ---
+<!--more-->
 
 # 基本的資料型別
 

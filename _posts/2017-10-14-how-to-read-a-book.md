@@ -2,6 +2,7 @@
 title: How to read a book
 tags: [reading]
 ---
+<!--more-->
 # 前言
 
 

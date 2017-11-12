@@ -4,6 +4,7 @@ category: Dev
 tags: [Debian]
 ---
 
+<!--more-->
 ```
 VBoxManage internalcommands sethduuid "/home/user/VirtualBox VMs/drupal/drupal.vhd"
 ```

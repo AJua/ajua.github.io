@@ -4,6 +4,7 @@ category: Dev
 tags: [Debian]
 ---
 
+<!--more-->
 今天在設定 /etc/fstab 完成之後重新開機時，
 發現中間有一段程式碼會導致系統出現錯誤，
 系統此時進入緊急模式，嘗試以 root 進入終端模式，

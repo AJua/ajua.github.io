@@ -9,9 +9,12 @@ layout: default
 <div class="post-content">
   {{ content }}
 </div>
+{% if site.data.theme.hide_post_footer %}
+{% else %}
 <div class="post-footer">
   {% include post-footer.html %}
 </div>
+{% endif %}
 {% if site.data.theme.show_post_navs %}
   {% if page.previous or page.next %}
     <div class="post-navs row">

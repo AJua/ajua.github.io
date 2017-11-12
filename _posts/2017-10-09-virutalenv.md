@@ -3,6 +3,7 @@ title: python virtualenv on Windows
 tags: [python]
 ---
 
+<!--more-->
 ```bash
 # 安裝 virtualenv
 pip install virtualenv

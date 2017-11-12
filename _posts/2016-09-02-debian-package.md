@@ -3,9 +3,9 @@ title: Debian 套件安裝
 category: Dev
 tags: [Debian]
 ---
+<!--more-->
 ### Docker resolve host not found
 
-<!--more-->
 ```sh
 $ vim /etc/resolv.conf
 ```

@@ -4,6 +4,7 @@ category: Dev
 tags: [bash]
 ---
 
+<!--more-->
 ### 使用方式
 
 <code>[VAR]=readJson [filename] [key] || exit [code]</code> 其中:

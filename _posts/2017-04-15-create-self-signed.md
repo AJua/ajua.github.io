@@ -3,6 +3,7 @@ title: Create self-signed certificate
 tags: [Debian]
 ---
 
+<!--more-->
 檔案的權限設定錯誤會導致 ssh 認證失敗
 
 ```sh
