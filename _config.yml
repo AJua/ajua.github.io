@@ -1,6 +1,6 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "http://ajua.github.io" # the base hostname & protocol for your site
-title: "阿爪的筆記本 AJus's notebook"
+title: "阿爪的筆記本"
 author: "阿爪"
 author_en: "AJua"
 
