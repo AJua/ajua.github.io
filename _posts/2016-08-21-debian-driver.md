@@ -1,5 +1,6 @@
 ---
 title: Debian 硬體驅動程式 
+category: Programming
 tags: [Debian]
 ---
 <!--more-->

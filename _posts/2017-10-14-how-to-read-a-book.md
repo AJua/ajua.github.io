@@ -122,5 +122,8 @@ Passive Learning V.S. Active Learning
 4. Syntopical Reading (Comparative Reading)
     - 
 
+# Chapter 3. The First Level of Reaing: Elementary Reading
+
+## 
 
 
