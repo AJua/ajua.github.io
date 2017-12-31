@@ -14,7 +14,7 @@ num_home_posts: 100
 # - purple
 # - orange
 # - red
-color: dark
+color: orange
 
 # Show navigation below each post?
 show_post_navs: true

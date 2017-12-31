@@ -6,14 +6,16 @@ permalink: "archive/index.html"
 {% for post in site.posts %}
   {% assign post_month_year = post.date | date: "%B %Y" %}
   {% assign newer_post_month_year = post.next.date | date: "%B %Y" %}
-  {% if post_month_year != newer_post_month_year %}
-    <h2 class="section-header-archive">
-      {{ post_month_year }}
-    </h2>
-  {% endif %}
+  <!--{% if post_month_year != newer_post_month_year %}-->
+    <!--<h2 class="section-header-archive">-->
+      <!--{{ post_month_year }}-->
+    <!--</h2>-->
+  <!--{% endif %}-->
   <p>
+    <span class="text-muted">
+        {{ post.date | date: "%Y.%m.%d" }} 
+    </span>&emsp;
     <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
-    <small class="text-muted">{{ post.date | date_to_string }}</small>
   </p>
 {% endfor %}
 </div>

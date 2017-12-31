@@ -3,6 +3,8 @@
 
 .text-muted {
   margin-bottom: 0.5em;
+  font-family: $mono-font-family;
+
 }
 .post-content img,
 .post-excerpt-home img,
@@ -17,4 +19,8 @@
 }
 .navbar-toggle .icon-bar {
   width: 16px;
+}
+
+p {
+  margin: 0;
 }

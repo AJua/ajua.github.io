@@ -6,7 +6,6 @@ tags: [productivity]
 
 [Taskwarrior](https://taskwarrior.org/)
 
-
 Tips
 
 1. [task due] Don't overdo this though, as a delay might force you to spend too much time reorganizing everything.
