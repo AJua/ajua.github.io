@@ -1,5 +1,6 @@
 ---
 title: python 基礎
+category: Memo
 tags: [python]
 ---
 <!--more-->

@@ -1,5 +1,6 @@
 ---
 title: 在 Windows 上面安裝 OpenCV
+category: Memo
 tags: [reading]
 ---
 test

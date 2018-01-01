@@ -1,5 +1,6 @@
 ---
 title: msys2 跟 cygwin 的差異
+category: Memo
 tags: [linux, Windows]
 ---
 msys2 是讓程式碼能移植到 Windows 上面, 

@@ -1,7 +1,7 @@
 ---
 title: Interview
-category: Thoughts
-tags: [productivity]
+category: Memo
+tags: [Job]
 ---
 
 # 面試題目

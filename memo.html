@@ -1,6 +1,6 @@
 ---
 title: Catetories
-permalink: "programming/index.html"
+permalink: "memo/index.html"
 ---
 
 {% assign rawtags = "" %}
@@ -27,10 +27,9 @@ permalink: "programming/index.html"
 {% endfor %}
 
 <div class="page-archive">
-{% for tag in tags %}
 	<h2 class="section-header-archive" id="{{ tag | slugify }}">{{ tag }}</h2>
 	 {% for post in site.posts %}
-		 {% if post.tags contains tag %}
+		 {% if post.category contains "Memo" %}
      <p>
 		 <a href="{{ post.url }}" class="post-title-archive">
 		 {{ post.title }}
@@ -39,6 +38,5 @@ permalink: "programming/index.html"
      </p>
 		 {% endif %}
 	 {% endfor %}
-{% endfor %}
 </div>
 

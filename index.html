@@ -1,7 +1,7 @@
 ---
 ---
 {% for post in site.posts limit:site.data.theme.num_home_posts %}
-
+{% unless post.category contains "Memo" %}
 <div class="post-header-home">
     <h2 class="post-title-home">
         <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
@@ -11,4 +11,5 @@
 <div class="post-excerpt-home">
     {{ post.excerpt }}
 </div>
+{% endunless %}
 {% endfor %}

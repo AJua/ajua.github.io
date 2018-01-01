@@ -29,7 +29,7 @@ permalink: "life/index.html"
 <div class="page-archive">
 	<h2 class="section-header-archive" id="{{ tag | slugify }}">{{ tag }}</h2>
 	 {% for post in site.posts %}
-		 {% if post.tags contains "Life" %}
+		 {% if post.category contains "Life" %}
      <p>
 		 <a href="{{ post.url }}" class="post-title-archive">
 		 {{ post.title }}

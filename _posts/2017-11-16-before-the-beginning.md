@@ -1,5 +1,6 @@
 ---
 title: 創業前, 你需要知道的五件事
+category: Memo
 tags: [reading]
 ---
 title: 創業前, 你需要知道的五件事

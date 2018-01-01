@@ -1,5 +1,6 @@
 ---
 title: How to read a book - Summaried by program think
+category: Memo
 tags: [reading]
 ---
 <!--more-->

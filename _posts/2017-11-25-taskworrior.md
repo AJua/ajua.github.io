@@ -1,7 +1,7 @@
 ---
 title: Taskwarrior
-category: Thoughts
-tags: [productivity]
+category: Memo
+tags: [Productivity]
 ---
 
 [Taskwarrior](https://taskwarrior.org/)

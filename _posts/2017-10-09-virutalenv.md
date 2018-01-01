@@ -1,5 +1,6 @@
 ---
 title: python virtualenv on Windows
+category: Memo
 tags: [python]
 ---
 

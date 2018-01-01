@@ -1,7 +1,7 @@
 ---
 title: 清水斷崖
-category: 
-tags: [Photo, Life]
+category: Life
+tags: [Photo]
 ---
 
 <!--more-->

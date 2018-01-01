@@ -1,5 +1,6 @@
 ---
 title: Data Structures
+category: Memo
 tags: [reading]
 ---
 
